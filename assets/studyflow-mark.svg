@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 48" role="img" aria-label="StudyFlow wave mark">
+  <defs>
+    <linearGradient id="studyflow-mint" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#20D6A0"/>
+      <stop offset="1" stop-color="#8FF0BE"/>
+    </linearGradient>
+  </defs>
+  <path d="M7 16 C15 10 21 5 29 9 C38 13 46 25 55 21 C59 19 62 17 65 15" fill="none" stroke="url(#studyflow-mint)" stroke-width="10.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M7 34 C15 28 21 23 29 27 C38 31 46 43 55 39 C59 37 62 35 65 33" fill="none" stroke="url(#studyflow-mint)" stroke-width="10.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

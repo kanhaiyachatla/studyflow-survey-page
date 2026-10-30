@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#061815">
+  <meta name="description" content="Tell us why you uninstalled StudyFlow, reinstall, or leave a review.">
+  <title>Sorry to see you go — StudyFlow</title>
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main class="page-shell">
+    <section class="farewell-panel" aria-labelledby="page-title">
+      <a class="brand" href="#survey" aria-label="StudyFlow">
+        <img class="brand-mark" src="assets/studyflow-mark.svg" alt="" width="44" height="32">
+        <span class="wordmark"><span>Study</span><span class="wordmark-flow">Flow</span></span>
+      </a>
+
+      <div class="farewell-copy">
+        <p class="eyebrow">Thanks for giving us a try</p>
+        <h1 id="page-title">Sad to see<br><span>you go.</span></h1>
+        <p class="farewell-lede">We hope StudyFlow made your YouTube learning experience a little better.</p>
+        <p class="farewell-note">Before you leave, we’d really appreciate your feedback. It helps us build a better product for learners like you.</p>
+      </div>
+
+      <img class="sad-illustration" src="assets/stsyg.png" alt="The sad StudyFlow character" width="480" height="480">
+    </section>
+
+    <section id="survey" class="survey-card" aria-labelledby="survey-title">
+      <div class="survey-topline">
+        <p class="section-kicker">01 / Quick question</p>
+        <p class="time-estimate"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="7.5"/><path d="M10 5.5v4.8l3.1 1.8"/></svg>Takes less than a minute</p>
+      </div>
+      <h2 id="survey-title">What was the main reason<br class="desktop-break"> you’re leaving?</h2>
+
+      <form id="feedback-form">
+        <fieldset class="reason-list">
+          <legend class="visually-hidden">Choose the main reason you uninstalled StudyFlow</legend>
+          <label class="reason-option">
+            <input type="radio" name="reason" value="I didn't use it enough">
+            <span class="reason-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 5.5c2.8-.9 5.4-.5 8 1.2v13c-2.6-1.7-5.2-2.1-8-1.2zM20 5.5c-2.8-.9-5.4-.5-8 1.2v13c2.6-1.7 5.2-2.1 8-1.2z"/></svg></span>
+            <span class="reason-label">I didn’t use it enough</span>
+            <span class="radio-mark" aria-hidden="true"></span>
+          </label>
+          <label class="reason-option">
+            <input type="radio" name="reason" value="It was missing something I needed">
+            <span class="reason-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="6" height="6" rx="1"/><rect x="14" y="4" width="6" height="6" rx="1"/><rect x="4" y="14" width="6" height="6" rx="1"/><rect x="14" y="14" width="6" height="6" rx="1"/></svg></span>
+            <span class="reason-label">It was missing something I needed</span>
+            <span class="radio-mark" aria-hidden="true"></span>
+          </label>
+          <label class="reason-option">
+            <input type="radio" name="reason" value="Something wasn't working as expected">
+            <span class="reason-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 8 6.5 6.5M16 8l1.5-1.5M8 16l-1.5 1.5M16 16l1.5 1.5M9 4V2.5M15 4V2.5M9 21.5V20M15 21.5V20M4 9H2.5M4 15H2.5M21.5 9H20M21.5 15H20"/><path d="M8 7.5h8a2 2 0 0 1 2 2v5a4 4 0 0 1-4 4h-4a4 4 0 0 1-4-4v-5a2 2 0 0 1 2-2Z"/><circle cx="10" cy="11.5" r=".7"/><circle cx="14" cy="11.5" r=".7"/></svg></span>
+            <span class="reason-label">Something wasn’t working as expected</span>
+            <span class="radio-mark" aria-hidden="true"></span>
+          </label>
+          <label class="reason-option">
+            <input type="radio" name="reason" value="It affected browser performance">
+            <span class="reason-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 17a8 8 0 1 1 16 0M6.5 14.5l2 1.2M17.5 14.5l-2 1.2M12 12l4-4"/><path d="M5 19h14"/></svg></span>
+            <span class="reason-label">It affected browser performance</span>
+            <span class="radio-mark" aria-hidden="true"></span>
+          </label>
+          <label class="reason-option">
+            <input type="radio" name="reason" value="I found another solution">
+            <span class="reason-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.3"/><path d="m15.5 15.5 4 4"/></svg></span>
+            <span class="reason-label">I found another solution</span>
+            <span class="radio-mark" aria-hidden="true"></span>
+          </label>
+          <label class="reason-option">
+            <input type="radio" name="reason" value="Something else">
+            <span class="reason-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6.5A3.5 3.5 0 0 1 7.5 3h9A3.5 3.5 0 0 1 20 6.5v6a3.5 3.5 0 0 1-3.5 3.5h-5l-4.5 4v-4.2A3.5 3.5 0 0 1 4 12.5z"/><circle cx="8" cy="9.5" r=".7"/><circle cx="12" cy="9.5" r=".7"/><circle cx="16" cy="9.5" r=".7"/></svg></span>
+            <span class="reason-label">Something else</span>
+            <span class="radio-mark" aria-hidden="true"></span>
+          </label>
+        </fieldset>
+
+        <div class="details-field">
+          <label for="feedback-details">Anything else? <span>(Optional)</span></label>
+          <textarea id="feedback-details" name="details" rows="3" maxlength="500" placeholder="Tell us a little more…"></textarea>
+        </div>
+
+        <button id="feedback-action" class="primary-button" type="submit">Send feedback <span aria-hidden="true">→</span></button>
+      </form>
+
+      <div class="reconsider">
+        <span class="reconsider-icon" aria-hidden="true">↻</span>
+        <div>
+          <p>Changed your mind?</p>
+          <p class="reconsider-links">You can <a id="reinstall-link" href="" target="_blank" rel="noopener noreferrer" hidden>reinstall StudyFlow</a><span id="reinstall-unavailable">reinstall StudyFlow</span> anytime<span id="review-separator" hidden> · </span><a id="review-link" href="" target="_blank" rel="noopener noreferrer" hidden>leave a review</a>.</p>
+        </div>
+      </div>
+
+      <p id="feedback-status" class="status-message" role="status" aria-live="polite"></p>
+    </section>
+  </main>
+</body>
+</html>
